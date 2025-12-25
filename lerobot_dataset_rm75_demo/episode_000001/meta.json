@@ -1,0 +1,29 @@
+{
+  "dataset_name": "rm75_demo",
+  "episode_index": 1,
+  "num_steps": 597,
+  "fps": 30.0,
+  "state_dim": 23,
+  "action_dim": 23,
+  "skipped_invalid_rgb": 3,
+  "obs": {
+    "rgb": {
+      "type": "image",
+      "format": "png",
+      "path_key": "rgb_path"
+    }
+  },
+  "state": {
+    "type": "vector",
+    "key": "state"
+  },
+  "action": {
+    "type": "vector",
+    "key": "action",
+    "meaning": "absolute_joint_positions"
+  },
+  "prompt": {
+    "type": "text",
+    "key": "prompt"
+  }
+}
